@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Interes en la Geografia</title>
+        <style>
+            .column {
+                float: left;
+                width: 25.00%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Quin és el teu interès en la Geografia?</h1>
+
+        <div class="column">
+        <h2>Dades personals</h2>
+
+            <h3>Introdueix el teu nom</h3>
+            Nom:<br>
+            <input type="text" name="firstname"><br>
+            Cognom:<br>
+            <input type="text" name="lastname">
+            
+            <h3>Edat</h3>
+            <input type="number" name="num" value="20" min="0" max="100">
+
+            <h3>Selecciona el teu sexe</h3>
+            <input type="radio" name="gender" value="male" checked> Home<br>
+            <input type="radio" name="gender" value="female"> Dona<br>
+            <input type="radio" name="gender" value="other"> Altre<br>
+
+            
+            
+        </div>
+        <div class="column">
+
+        <h2>Dades d'estudi</h2>
+
+            <h3>Selecciona el teu interès en la Geografia</h3>
+            <input type="range" name="points" value="5" min="0" max="10">
+
+            <h3>Estudies Geografia?</h3>
+            <input type="checkbox" name="positive" value="Si">
+                Si, estudio Geografia<br>
+            <input type="checkbox" name="negative" value="No">
+                No, no estudio Geografia<br>
+
+            <h3>Quina branca de la Geografia t'interesa més?</h3>
+            <select name="Rames de Geografia">
+                <option value="fisica">Física</option>
+                <option value="politica">Política</option>
+                <option value="ambiental">Ambiental</option>
+                <option value="social">Social</option>
+                <option value="economica">Econòmica</option>
+            </select>
+
+            <h3>Algun comentari a fer?</h3>
+            <textarea></textarea>
+
+            <h3>Envia-ho</h3>
+            <input type="button" value="Send It">  
+
+        </div>
+        <div class="column">
+
+            <img src="images/imatge1.png" width="900px">
+            
+            <div class="line">
+                <h3><a href="index.html"> Torna a inici</a></h3>
+
+            </div>
+        </div>
+    </body>
+</html>
+
