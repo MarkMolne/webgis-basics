@@ -1,3 +1,2 @@
 # webgis-basics
-## Exercici 1
-Primer contacte amb HTLM
+Pràctiques desenvolupades amb el professor Carlos Soriano
